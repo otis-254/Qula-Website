@@ -1,258 +1,77 @@
- 
-<div class="bg-white">
-  <header class="relative bg-sky-800 pb-24 sm:pb-32">
-    <div class="absolute inset-0">
-      <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt="">
-      <div class="absolute inset-0 bg-gradient-to-l from-sky-800 to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
-    </div>
-    <div class="relative z-10">
-      <nav class="relative mx-auto flex max-w-7xl items-center justify-between px-4 pt-6 pb-2 sm:px-6 lg:px-8" aria-label="Global">
-        <div class="flex w-full items-center justify-between lg:w-auto">
-          <a href="#">
-            <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=emerald&shade=300" alt="">
-          </a>
-          <div class="-mr-2 flex items-center lg:hidden">
-            <button type="button" class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-sky-800 bg-opacity-0 p-2 text-cyan-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <!-- Heroicon name: outline/bars-3 -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-            </button>
-          </div>
-        </div>
-        <div class="hidden space-x-10 lg:ml-10 lg:flex">
-          <a href="#" class="text-base font-medium text-white hover:text-cyan-100">Changelog</a>
-
-          <a href="#" class="text-base font-medium text-white hover:text-cyan-100">About</a>
-
-          <a href="#" class="text-base font-medium text-white hover:text-cyan-100">Partners</a>
-
-          <a href="#" class="text-base font-medium text-white hover:text-cyan-100">News</a>
-        </div>
-        <div class="hidden lg:flex lg:items-center lg:space-x-6">
-          <a href="#" class="rounded-md border border-transparent bg-white bg-opacity-10 py-2 px-6 text-base font-medium text-white hover:bg-opacity-20">Login</a>
-        </div>
-      </nav>
-
-      <!--
-        Mobile menu, show/hide based on menu open state.
-
-        Entering: "duration-150 ease-out"
-          From: "opacity-0 scale-95"
-          To: "opacity-100 scale-100"
-        Leaving: "duration-100 ease-in"
-          From: "opacity-100 scale-100"
-          To: "opacity-0 scale-95"
-      -->
-      <div class="absolute inset-x-0 top-0 origin-top transform p-2 transition lg:hidden">
-        <div class="overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
-          <div class="flex items-center justify-between px-5 pt-4">
-            <div>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=emerald&shade=400" alt="">
-            </div>
-            <div class="-mr-2">
-              <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
-                <span class="sr-only">Close menu</span>
-                <!-- Heroicon name: outline/x-mark -->
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="pt-5 pb-6">
-            <div class="space-y-1 px-2">
-              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">Changelog</a>
-
-              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">About</a>
-
-              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">Partners</a>
-
-              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">News</a>
-            </div>
-            <div class="mt-6 px-5">
-              <a href="#" class="block w-full rounded-md border border-transparent bg-green-400 py-2 px-4 text-center font-medium text-white shadow hover:bg-green-500">Login</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="relative mx-auto mt-24 max-w-md px-4 sm:mt-32 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Get in touch</h1>
-      <p class="mt-6 max-w-3xl text-xl text-cyan-100">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
-    </div>
-  </header>
-
-  <main>
-    <!-- Side-by-side grid -->
-    <div class="bg-white">
-      <div class="mx-auto max-w-md py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="divide-y divide-warm-gray-200">
-          <section class="lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="contact-heading">
-            <h2 id="contact-heading" class="text-2xl font-bold text-warm-gray-900 sm:text-3xl sm:tracking-tight">Get in touch</h2>
-            <div class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:col-span-2 lg:mt-0">
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Collaborate</h3>
-                <dl class="mt-2 text-base text-warm-gray-500">
-                  <div>
-                    <dt class="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div class="mt-1">
-                    <dt class="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
-                </dl>
-              </div>
-
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Press</h3>
-                <dl class="mt-2 text-base text-warm-gray-500">
-                  <div>
-                    <dt class="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div class="mt-1">
-                    <dt class="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
-                </dl>
-              </div>
-
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Join our team</h3>
-                <dl class="mt-2 text-base text-warm-gray-500">
-                  <div>
-                    <dt class="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div class="mt-1">
-                    <dt class="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
-                </dl>
-              </div>
-
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Say hello</h3>
-                <dl class="mt-2 text-base text-warm-gray-500">
-                  <div>
-                    <dt class="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div class="mt-1">
-                    <dt class="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
-                </dl>
-              </div>
-            </div>
-          </section>
-          <section class="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8" aria-labelledby="location-heading">
-            <h2 id="location-heading" class="text-2xl font-bold text-warm-gray-900 sm:text-3xl sm:tracking-tight">Locations</h2>
-            <div class="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:col-span-2 lg:mt-0">
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Los Angeles</h3>
-                <div class="mt-2 space-y-1 text-base text-warm-gray-500">
-                  <p>4556 Brendan Ferry</p>
-
-                  <p>Los Angeles, CA 90210</p>
-                </div>
-              </div>
-
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">New York</h3>
-                <div class="mt-2 space-y-1 text-base text-warm-gray-500">
-                  <p>886 Walter Streets</p>
-
-                  <p>New York, NY 12345</p>
-                </div>
-              </div>
-
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Toronto</h3>
-                <div class="mt-2 space-y-1 text-base text-warm-gray-500">
-                  <p>7363 Cynthia Pass</p>
-
-                  <p>Toronto, ON N3Y 4H8</p>
-                </div>
-              </div>
-
-              <div>
-                <h3 class="text-lg font-medium text-warm-gray-900">Chicago</h3>
-                <div class="mt-2 space-y-1 text-base text-warm-gray-500">
-                  <p>726 Mavis Island</p>
-
-                  <p>Chicago, IL 60601</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
-
-    <!-- FAQ -->
-    <div class="bg-warm-gray-50">
-      <div class="mx-auto max-w-md py-24 px-4 sm:max-w-3xl sm:py-32 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-3 lg:gap-8">
-          <div>
-            <h2 class="text-3xl font-bold tracking-tight text-warm-gray-900">Frequently asked questions</h2>
-            <p class="mt-4 text-lg text-warm-gray-500">Can’t find the answer you’re looking for? Reach out to our <a href="#" class="font-medium text-cyan-700 hover:text-cyan-600">customer support</a> team.</p>
-          </div>
-          <div class="mt-12 lg:col-span-2 lg:mt-0">
-            <dl class="space-y-12">
-              <div>
-                <dt class="text-lg font-medium text-warm-gray-900">How do you make holy water?</dt>
-                <dd class="mt-2 text-base text-warm-gray-500">You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-              </div>
-
-              <div>
-                <dt class="text-lg font-medium text-warm-gray-900">What&#039;s the best thing about Switzerland?</dt>
-                <dd class="mt-2 text-base text-warm-gray-500">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-              </div>
-
-              <div>
-                <dt class="text-lg font-medium text-warm-gray-900">What do you call someone with no body and no nose?</dt>
-                <dd class="mt-2 text-base text-warm-gray-500">Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-              </div>
-
-              <div>
-                <dt class="text-lg font-medium text-warm-gray-900">Why do you never see elephants hiding in trees?</dt>
-                <dd class="mt-2 text-base text-warm-gray-500">Because they&#039;re so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</dd>
-              </div>
-            </dl>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Newsletter -->
-    <div class="relative">
-      <div class="absolute left-0 right-0 h-1/2 bg-warm-gray-50" aria-hidden="true"></div>
-      <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="rounded-3xl bg-gradient-to-l from-sky-800 to-cyan-700 py-10 px-6 sm:py-16 sm:px-12 lg:flex lg:items-center lg:py-20 lg:px-20">
-          <div class="lg:w-0 lg:flex-1">
-            <h2 class="text-3xl font-bold tracking-tight text-white">Sign up for our newsletter</h2>
-            <p class="mt-4 max-w-3xl text-lg text-cyan-100">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat.</p>
-          </div>
-          <div class="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
-            <form class="sm:flex">
-              <label for="email-address" class="sr-only">Email address</label>
-              <input id="email-address" name="email-address" type="email" autocomplete="email" required class="w-full rounded-md border-white px-5 py-3 placeholder-warm-gray-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-cyan-700" placeholder="Enter your email">
-              <button type="submit" class="mt-3 flex w-full items-center justify-center rounded-md border border-transparent bg-green-400 px-5 py-3 text-base font-medium text-white hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 focus:ring-offset-cyan-700 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">Notify me</button>
-            </form>
-            <p class="mt-3 text-sm text-cyan-100">
-              We care about the protection of your data. Read our
-              <a href="#" class="font-medium text-white underline">Privacy Policy.</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+<div class="bg-black h-30">
+<div class="text-white text-center py-10">
+<h1 class="text-4xl font-bold capitalize">Contact Us</h1>
+<a href="#" class="text-white ">Home &#8250; </a>
+<a  class="text-white">Contact Us</a>
 </div>
+</div>
+<br>
+ <div class="bg-white">
+<!-- Header -->
+<div class="relative bg-gray-800 pb-32">
+  <div class="absolute inset-0">
+    <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+    <div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+  </div>
+  <div class="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">Support Center</h1>
+    <p class="mt-6 max-w-3xl text-xl text-gray-300">We are happy to listen and respond to your complaints. Call, Email, or Chat us <p class="font-bold text-4xl text-yellow-500">Anytime!</p>
+  </div>
+</div>
+
+<!-- Overlapping cards -->
+<section class="relative z-10 mx-auto -mt-32 max-w-7xl px-4 pb-32 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+  <h2 class="sr-only" id="contact-heading">Contact us</h2>
+  <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+    <div class="flex flex-col rounded-2xl bg-white shadow-xl">
+      <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+        <div class="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
+          <!-- Heroicon name: outline/phone -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-medium text-gray-900">Call Us</h3>
+        <p class="mt-4 text-base text-gray-500">You are free and encouraged to call our office at any time for any inquiry. All our call centers are <b>Open 24/7.</b> Call us through this number;</p><a href="#" class="text-bold text-yellow-500"><b>+254 714 531 574</b></a>
+      </div>
+      <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
+        <a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Call  us<span aria-hidden="true"> &rarr;</span></a>
+      </div>
+    </div>
+
+    <div class="flex flex-col rounded-2xl bg-white shadow-xl">
+      <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+        <div class="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
+          <!-- Heroicon name: outline/lifebuoy -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 011.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 00-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 010 9.424m-4.138-5.976a3.736 3.736 0 00-.88-1.388 3.737 3.737 0 00-1.388-.88m2.268 2.268a3.765 3.765 0 010 2.528m-2.268-4.796a3.765 3.765 0 00-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 01-1.388.88m2.268-2.268l4.138 3.448m0 0a9.027 9.027 0 01-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0l-3.448-4.138m3.448 4.138a9.014 9.014 0 01-9.424 0m5.976-4.138a3.765 3.765 0 01-2.528 0m0 0a3.736 3.736 0 01-1.388-.88 3.737 3.737 0 01-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 01-1.652-1.306 9.027 9.027 0 01-1.306-1.652m0 0l4.138-3.448M4.33 16.712a9.014 9.014 0 010-9.424m4.138 5.976a3.765 3.765 0 010-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 011.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 00-1.652 1.306A9.025 9.025 0 004.33 7.288" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-medium text-gray-900">Email Us</h3>
+        <p class="mt-4 text-base text-gray-500">You can send us an email for any kind of enquiry, and our customer care will jump on it as soon as possible. Send us your email through;</p><a href="#" class="text-bold text-yellow-500"><b>officialmerit21@gmail.com!</b></a>
+      </div>
+      <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
+        <a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Send email  Now!<span aria-hidden="true"> &rarr;</span></a>
+      </div>
+    </div>
+
+    <div class="flex flex-col rounded-2xl bg-white shadow-xl">
+      <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+        <div class="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-indigo-600 p-5 shadow-lg">
+          <!-- Heroicon name: outline/newspaper -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-medium text-gray-900">Chat Us </h3>
+        <p class="mt-4 text-base text-gray-500">WE are happy to listen and respond to your complaints. Call, Email, or Chat us</p><p class="text-bold text-yellow-500">Anytime!</p>
+      </div>
+      <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
+        <a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Chat us Now!<span aria-hidden="true"> &rarr;</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+     
 <br><br>
