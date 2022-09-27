@@ -12,11 +12,13 @@
   </head>
 
   <body>
+  <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
   <%= render partial: "shared/header"%>
-
       <%= yield %>
       <%= render partial: "shared/footer" %>
-     
+      <p class="navbar-text float-right">
+      
     </main>
   </body>
 </html>
