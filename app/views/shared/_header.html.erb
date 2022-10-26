@@ -14,25 +14,24 @@
 
           <%= link_to "PRODUCTS", merit_products_path , class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-red-700 hover:text-gray-700 " %>
 
-          <%= link_to "MENU", merit_menu_path , class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" %>
-
           <%= link_to "CONTACTS", merit_contacts_path , class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" %>
-
-
-          <p class="navbar-text mr-auto py-5">
+          
+          
+          <div class=" justify-center ">
+          <p class="navbar-text mr-right py-5">
           <% if user_signed_in? %>
             Logged in as <strong><%= current_user.email %></strong>.
             <%= link_to 'Edit profile', edit_user_registration_path, class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" %> |
             <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"  %>
           <% else %>
 
-          
+      
             <%= link_to "Sign up", new_user_registration_path, class: "inline-flex items-right border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"  %> |
             <%= link_to "Login", new_user_session_path, class: "inline-flex items-right border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"  %>
           <% end %>
           </p>
-
-        
+          </div>
+      </div>
         </div>
       </div>
     </div>
